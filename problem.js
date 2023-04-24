@@ -8,14 +8,14 @@
 
 // -----------------problem3-------------------
 
-words=['roshin','gokul','selva','roshin','gokul','ajith','rajiv'];
-obj={}
-words.map((e)=>
-    {      
-        if(e in obj)
-            return obj[e]+=1
-        else
-            return obj[e]=1
-    }
-     )
-console.log(obj)
+// words=['roshin','gokul','selva','roshin','gokul','ajith','rajiv'];
+// obj={}
+// words.map((e)=>
+//     {      
+//         if(e in obj)
+//             return obj[e]+=1
+//         else
+//             return obj[e]=1
+//     }
+//      )
+// console.log(obj)
