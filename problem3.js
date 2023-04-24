@@ -1,4 +1,3 @@
-
 // -----------------problem3-------------------
 // Write a function that takes an array of words and returns an object where the keys are the words and the values are the number of times each word appears in the array. Use the Map object to accomplish this.
 function wordCount(arr){
