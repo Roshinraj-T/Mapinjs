@@ -4,8 +4,7 @@
 function category(arr){
    Category= arr.map((e)=>{
         if(!(e.category in obj)){
-            obj[e.category]=[]
-    
+            obj[e.category]=[]    
         }
         obj[e.category].push(e)
     })
