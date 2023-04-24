@@ -7,21 +7,15 @@
 // console.log(names.map(e=>e.name))
 
 // -----------------problem3-------------------
-// words=['cat','dog','cat','dog','rat','mouse']
-// count = function wordcount(){
-//     words.forEach(e=>{
-//         count.
-//     })
-// } 
-// function countWords(arr) {
-//     const map = new Map();
-//     arr.forEach(word => {
-//       map.set(word, (map.get(word) || 0) + 1);
-//     });
-//     return Object.fromEntries(map);
-//   }
-  
-//   const arr = ["apple", "banana", "cherry", "banana", "apple", "apple"];
-//   const wordCounts = countWords(arr);
-//   console.log(wordCounts); 
-  
+
+words=['roshin','gokul','selva','roshin','gokul','ajith','rajiv'];
+obj={}
+words.map((e)=>
+    {      
+        if(e in obj)
+            return obj[e]+=1
+        else
+            return obj[e]=1
+    }
+     )
+console.log(obj)
