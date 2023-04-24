@@ -4,5 +4,4 @@ function square(arr){
  return arr.map(e=>  e*e)
 }
 numbers=[1,2,4,6,8,9,16]
-
 console.log(square(numbers));

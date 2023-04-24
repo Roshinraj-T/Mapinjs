@@ -1,7 +1,5 @@
 //====================== problrm 4=================
 // Write a function that takes a string and returns an object where the keys are the characters in the string and the values are the number of times each character appears in the string. Use the Map object to accomplish this
-words='roshinraj';
-obj={}
 arrayOfLetter=words.split('')
 function characterCount(arr){
     Count=arr.map((e)=>
@@ -14,5 +12,6 @@ function characterCount(arr){
      )
      return obj
 }
-
+words='roshinraj';
+obj={}
 console.log(characterCount(arrayOfLetter))
