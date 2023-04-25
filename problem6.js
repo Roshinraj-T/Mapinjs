@@ -3,8 +3,7 @@
 function removeAnDuplicate (arr){
     remove=strings.map((e)=>{
         if(!(newString.includes(e)))
-          newString.push(e)
-        
+          newString.push(e)        
       })
       return newString
 }
