@@ -27,7 +27,7 @@
 // })
 // console.log(obj)
 
-num=[8]
+num=[1,2,3,4,5,6,7,8,9,10,16,2255]
 obj={}
 num.map((e)=>{
     if(typeof obj[e]=='undefined'){
